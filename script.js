@@ -8,3 +8,6 @@ const timestamp = document.getElementById('timestamp');
 
 // Event Listeners
 video.addEventListener('click', toggleVideoStatus);
+video.addEventListener('pause', updatPlayIcon);
+video.addEventListener('play', updatPlayIcon);
+video.addEventListener('timeupdate', updateProgress);
