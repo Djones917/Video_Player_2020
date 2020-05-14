@@ -7,4 +7,4 @@ const timestamp = document.getElementById('timestamp');
 
 
 // Event Listeners
-video.addEventListener('click', toggleVideos);
+video.addEventListener('click', toggleVideoStatus);
