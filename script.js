@@ -6,6 +6,17 @@ const timestamp = document.getElementById('timestamp');
 
 
 
+
+
+// Play and Pause Video Status
+function toggleVideoStatus() {
+   return true;
+}
+
+
+
+
+
 // Event Listeners
 video.addEventListener('click', toggleVideoStatus);
 video.addEventListener('pause', updatPlayIcon);
