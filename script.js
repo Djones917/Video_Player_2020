@@ -14,6 +14,12 @@ function toggleVideoStatus() {
 }
 
 
+// Update Play/Pause Icon
+function updatPlayIcon() {
+    return true;
+}
+
+
 
 
 
