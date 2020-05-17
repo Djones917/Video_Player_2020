@@ -32,6 +32,12 @@ function setVideoProgress() {
 }
 
 
+// Stop Video
+function stopVideo() {
+    return true;
+}
+
+
 
 
 
