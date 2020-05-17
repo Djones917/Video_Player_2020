@@ -20,6 +20,18 @@ function updatPlayIcon() {
 }
 
 
+// Update Progress and Timestamp
+function updateProgress() {
+    return true;
+}
+
+
+// Set Video Time to Progress
+function setVideoProgress() {
+    return true;
+}
+
+
 
 
 
