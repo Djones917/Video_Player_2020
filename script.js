@@ -10,13 +10,21 @@ const timestamp = document.getElementById('timestamp');
 
 // Play and Pause Video Status
 function toggleVideoStatus() {
-   return true;
+   if(video.paused) {
+      video.play();
+   } else {
+       video.pause();
+   }
 }
 
 
 // Update Play/Pause Icon
 function updatPlayIcon() {
-    return true;
+    if(video.paused) {
+       play.innerHTML = '<i class="fa fa-play fa-2x"></i>';
+    } else {
+        play.innerHTML = '<i class="fa fa-pause fa-2x"></i>';
+    }
 }
 
 
@@ -34,7 +42,8 @@ function setVideoProgress() {
 
 // Stop Video
 function stopVideo() {
-    return true;
+    video.currentTime = 0;
+    video.pause();
 }
 
 
